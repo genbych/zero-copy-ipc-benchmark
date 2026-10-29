@@ -1,0 +1,9 @@
+[package]
+name = "kernel"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+limine = "0.6.5"
+x86_64 = "0.15.2"
+serial = { path = "../serial" }
